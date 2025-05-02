@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ML Team 4"
+description = "Introduction to Machine Learning Team Project"
+author = ["cjssoote@gmail.com"]
+
+[tool.poetry.dependencies]
+black = ">=19.3b0,<=22.12"
+isort = ">=5.7"
+mypy = ">=0.910"
+pre-commit = ">=2.13"
+pylint = ">=2.9"
+python = ">=3.8"
+
+[tool.black]
+line-length = 120
+target-version = ['py38']

@@ -1,0 +1,8 @@
+black>=19.3b0, <=22.12
+isort>=5.7
+nbqa>=1.9
+numpy==1.26.4
+matplotlib>=3.8.0
+pandas>=2
+pre-commit>=2.13
+scikit-learn<=1.5.2

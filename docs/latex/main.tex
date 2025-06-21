@@ -1,39 +1,47 @@
-\documentclass{article} 
+\documentclass{article}
+\usepackage[a4paper,margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{url}
+\usepackage{array} 
 
 \begin{document}
 
 \begin{center}
-    {\LARGE \textbf{Where Should Air Taxis Land?}}\\[0.2em]
-    {\large \textbf{Finding Optimal Vertiport Locations in the Seoul Metropolitan Area Using K-Means Clustering}}\\[2em]
-
-    \begin{tabular}{c c c}
-        \textbf{Jaeseong Choe} & \textbf{Subin Kim} & \textbf{Jiyoung Lee} \\
-        Dept. of Communication Arts & Dept. of Management & Dept. of Life Science \\
-        Handong Global University & Handong Global University & Handong Global University \\
-        Pohang, Republic of Korea & Pohang, Republic of Korea & Pohang, Republic of Korea \\
-        21900759@handong.ac.kr & 22200105@handong.ac.kr & 22100573@handong.ac.kr \\
-    \end{tabular}
-    \vspace{1em}
-
-    \begin{tabular}{c c c}
-        \textbf{Hakyeong Oh} & \textbf{Juen Kim} & \textbf{Eunhye Kim} \\
-        Dept. of Urban Engineering & Dept. of Management & Dept. of Management \\
-        Handong Global University & Handong Global University & Handong Global University \\
-        Pohang, Republic of Korea & Pohang, Republic of Korea & Pohang, Republic of Korea \\
-        22100456@handong.ac.kr & 22300189@handong.ac.kr & 22300179@handong.ac.kr \\
-    \end{tabular}
-    \vspace{1em}
-
-    \begin{tabular}{c}
-        \textbf{Uiseong Ahn} \\
-        Dept. of Urban Engineering \\
-        Handong Global University \\
-        Pohang, Republic of Korea \\
-        22200422@handong.ac.kr \\
-    \end{tabular}
+    {\LARGE \textbf{Where Should Air Taxis Land?}}\\[0.3em]
+    {\large \textbf{Finding Optimal Vertiport Locations in the Seoul Metropolitan Area Using K-Means Clustering}}\\[2.5em]
 \end{center}
+
+\renewcommand{\arraystretch}{1.2} % 줄 간격
+\noindent\centering
+\begin{tabular}{>{\centering\arraybackslash}p{0.3\textwidth} >{\centering\arraybackslash}p{0.3\textwidth} >{\centering\arraybackslash}p{0.3\textwidth}}
+\textbf{Jaeseong Choe} & \textbf{Subin Kim} & \textbf{Jiyoung Lee} \\
+Dept. of Communication Arts & Dept. of Management & Dept. of Life Science \\
+Handong Global University & Handong Global University & Handong Global University \\
+Pohang, Republic of Korea & Pohang, Republic of Korea & Pohang, Republic of Korea \\
+\texttt{21900759@handong.ac.kr} & \texttt{22200105@handong.ac.kr} & \texttt{22100573@handong.ac.kr} \\
+\end{tabular}
+
+\vspace{1.5em}
+
+\noindent\centering
+\begin{tabular}{>{\centering\arraybackslash}p{0.3\textwidth} >{\centering\arraybackslash}p{0.3\textwidth} >{\centering\arraybackslash}p{0.3\textwidth}}
+\textbf{Hakyeong Oh} & \textbf{Jueun Kim} & \textbf{Eunhye Kim} \\
+Dept. of Urban Engineering & Dept. of Management & Dept. of Management \\
+Handong Global University & Handong Global University & Handong Global University \\
+Pohang, Republic of Korea & Pohang, Republic of Korea & Pohang, Republic of Korea \\
+\texttt{22100456@handong.ac.kr} & \texttt{22300189@handong.ac.kr} & \texttt{22300179@handong.ac.kr} \\
+\end{tabular}
+
+\vspace{1.5em}
+
+\noindent\centering
+\begin{tabular}{>{\centering\arraybackslash}p{0.9\textwidth}}
+\textbf{Uiseong Ahn} \\
+Dept. of Urban Engineering \\
+Handong Global University \\
+Pohang, Republic of Korea \\
+\texttt{22200422@handong.ac.kr} \\
+\end{tabular}
 
 \end{document}

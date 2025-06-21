@@ -20,7 +20,7 @@
 │   └── random_point.csv
 ├── docs
 │   ├── applsci-11-05729.pdf
-│   ├── Final_Report.docx
+│   ├── Final_Report_IEEE.docx
 │   ├── latex
 │   │   ├── main.pdf
 │   │   ├── main.png

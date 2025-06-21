@@ -1,6 +1,12 @@
 # MACOS
 .DS_Store
 
+# Latex
+*.aux
+*.fls
+*.fdb_latexmk
+*.gz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

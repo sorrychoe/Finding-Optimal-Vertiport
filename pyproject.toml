@@ -1,7 +1,14 @@
 [tool.poetry]
 name = "ML Team 4"
 description = "Introduction to Machine Learning Team Project"
-author = ["cjssoote@gmail.com"]
+author = [
+    "21900759@handong.ac.kr", 
+    "22100456@handong.ac.kr", 
+    "22100573@handong.ac.kr",
+    "aes1727@handong.ac.kr",
+    "22200105@handong.ac.kr",
+    "22300189@handong.ac.kr",
+    "hyehye0407@handong.ac.kr"]
 
 [tool.poetry.dependencies]
 black = ">=19.3b0,<=22.12"
